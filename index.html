@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,79 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Day Planner</title>
-    
+
 </head>
+
 <body>
     <header class="jumbotron">
         <h1 class="display-5">Carpe Diem</h1>
-        <p class="lead">this is a class lead with p tags with p id equalling 
-            current day</p>
+        <p class="lead">this is a class lead with p tags with p id equalling
+            the current day! Hook up to js</p>
         <p id="updatedDay" class="lead"></p>
-      </header>
+    </header>
+    <div class="container">
+
+        <!-- time slots -->
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">6 am</span>
+            <!-- this represents the hour being displayed -->
+            <!-- id will be am for the morning hours pm hour will have them without ex. sixam vs six -->
+            <!-- textarea w/ class, id, aria-label -->
+            <!-- button w/ id, class, type,  -->
+            <textarea class="form-control" id="sixam" id="result" aria-label="With textarea">Click and Schedule</textarea>
+            <button id="sBtn" class="btn btn-outline-secondary input-group-append saveBtn " type="button">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">8 am</span>
+            <textarea class="form-control" id="eightam" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">10 am</span>
+            <textarea class="form-control" id="tenam" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row"><span class="input-group-text time-block hour col-1">12 pm</span>
+            <textarea class="form-control" id="twelve" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">2 pm</span>
+            <textarea class="form-control" id="two" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">4 pm</span>
+            <textarea class="form-control" id="four" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">6 pm</span>
+            <textarea class="form-control" id="six" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">8 pm</span>
+            <textarea class="form-control" id="eight" id="counter" aria-label="With textarea">Click and Schedule</textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+
+        <div class="input-group row">
+            <span class="input-group-text time-block hour col-1">10 pm</span>
+            <textarea class="form-control" id="ten" id="counter" aria-label="With textarea">Click and Add </textarea>
+            <button class="btn btn-outline-secondary input-group-append saveBtn" type="button" id="button-addon2">SAVE</button>
+        </div>
+    </div>
+
+
+    </div>
 </body>
+
 </html>
