@@ -1,0 +1,15 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color: green;
+    opacity: 0.6;
+    color:rgb(255, 204, 102)
+    ;
+    border-radius: 0;
+    border-bottom:4px dotted blue;
+  }
