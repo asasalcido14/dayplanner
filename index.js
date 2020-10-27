@@ -13,14 +13,31 @@ localStorage.setItem(slot, prompt);
 // how to include moment w/ the app? 
 // function next
 
-function inputTime()
-{
-    
-}
+function inputTime(){
+    // each input slot or created task box
+     $(".input-group").each(function() {
+         // create variable and use parseInt (string to integer) number has id value
+        const inputHour = parseInt($(this).attr("id").split("-")[1]);
+
+        if (inputHour < outputHour) {
+            $(this).addClass("past");
+          } 
+          else if (inputHour === outputHour) {
+            $(this).removeClass("past");
+            $(this).addClass("present");
+          } 
+          else {
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).addClass("future");
+          }
+        });
+      }
+inputTime();
 
 
 
 }
 
-
+}
 

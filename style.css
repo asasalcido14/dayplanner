@@ -3,6 +3,15 @@ body {
     font-size: 20px;
     line-height: 1;
   }
+
+  textarea{
+    background: top;
+    border: thin;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid grey;
+    padding: 10px;
+  }
   
 
   .jumbotron {
@@ -11,7 +20,7 @@ body {
     opacity: 0.6;
     color:rgb(255, 204, 102);
     border-radius: 0;
-    border-bottom:4px dotted blue;
+    border-bottom:4px solid blue;
   }
 
   #spanbox{
