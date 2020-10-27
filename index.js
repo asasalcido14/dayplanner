@@ -11,6 +11,16 @@ localStorage.setItem(slot, prompt);
 
 });
 // how to include moment w/ the app? 
+// function next
+
+function inputTime()
+{
+    
+}
+
 
 
 }
+
+
+
